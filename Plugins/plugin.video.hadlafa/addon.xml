@@ -1,0 +1,21 @@
+﻿<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.hadlafa" name="Hadlafa.net" version="1.0.1" provider-name="zachi40">
+  <requires>
+	 <import addon="xbmc.python" version="2.1.0"/>
+	 <import addon="script.module.beautifulsoup4" version="4.3.1" />
+	 <import addon="script.module.requests" version="2.3.0" />
+	 <import addon="script.module.html5lib" version="0.999.0" />
+	 <import addon="script.module.urlresolver" />
+  </requires>
+  <extension point="xbmc.python.module" library="resources" />
+  <extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="he">Hadlafa.net</summary>
+    <description lang="he">הרחבה מבית היוצר של zachi40 לאתר ההדלפה.	</description>
+    <platform>all</platform>
+	<language>he</language>
+	<disclaimer></disclaimer>
+  </extension>
+</addon>

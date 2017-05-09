@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.LiveCam" version="1.0.2" name="מצלמות חיות" provider-name="zahi ohana">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Watch live camera.</summary>
+        <summary lang="he">צפייה במצלמות אונליין</summary>
+        <description lang="en">Watch live camera on israel.</description>
+        <description lang="he">צפייה במצלמות חיות אונליין</description>
+        <disclaimer>~~</disclaimer>
+        <supportedcontent>
+          <content>tvshows</content>
+          <content>episodes</content>
+          <content>movies</content>
+        </supportedcontent>	
+    </extension>
+</addon>

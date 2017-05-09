@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.ohana" name="[COLOR white]O[/COLOR][COLOR blue]h[/COLOR][COLOR yellow]a[/COLOR][COLOR green]n[/COLOR][COLOR orange]a[/COLOR] [COLOR white]Repository ©[/COLOR]" version="1.0.2" provider-name="zachi40">
+	<extension point="xbmc.addon.repository" name="Zahi Ohana Repository">
+			<info compressed="false">http://zachi40.site11.com/addons-kodi/Plugins/addons.xml</info>
+			<checksum>http://zachi40.site11.com/addons-kodi/Plugins/addons.xml.md5</checksum>
+			<datadir zip="true">http://zachi40.site11.com/addons-kodi/Plugins/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>zachi40</summary>
+        <description>הרחבות לקודי מבית היוזר של zachi40</description>
+        <platform>all</platform>
+    </extension>
+</addon>

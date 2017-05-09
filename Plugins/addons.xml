@@ -1,0 +1,250 @@
+<addons>
+<!-- repository.zahi -->
+<addon id="repository.ohana" name="[COLOR white]O[/COLOR][COLOR blue]h[/COLOR][COLOR yellow]a[/COLOR][COLOR green]n[/COLOR][COLOR orange]a[/COLOR] [COLOR white]Repository ©[/COLOR]" version="1.0.2" provider-name="zachi40">
+	<extension point="xbmc.addon.repository" name="Zahi Ohana Repository">
+			<info compressed="false">http://zachi40.site11.com/addons-kodi/Plugins/addons.xml</info>
+			<checksum>http://zachi40.site11.com/addons-kodi/Plugins/addons.xml.md5</checksum>
+			<datadir zip="true">http://zachi40.site11.com/addons-kodi/Plugins/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>zachi40</summary>
+        <description>הרחבות לקודי מבית היוזר של zachi40</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+<!--plugin.video.UrlMovies -->
+<addon id="plugin.video.UrlMovies" name="Movies Url" version="1.0.2" provider-name="zachi40">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">צפייה בסרטים</summary>        
+        <description lang="en">צפייה בסרטים חדשים</description>
+    </extension>
+</addon>
+<!--plugin.video.livecam -->
+<addon id="plugin.video.LiveCam" version="1.0.2" name="מצלמות חיות" provider-name="zachi40">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Watch live camera.</summary>
+        <summary lang="he">צפייה במצלמות אונליין</summary>
+        <description lang="en">Watch live camera on israel.</description>
+        <description lang="he">צפייה במצלמות חיות אונליין</description>
+        <disclaimer>כותבי הסקריפט אינם אחראי על התוכן המשודר</disclaimer>
+        <supportedcontent>
+          <content>tvshows</content>
+          <content>episodes</content>
+          <content>movies</content>
+        </supportedcontent>	
+    </extension>
+</addon>
+<!--plugin.video.tvil -->
+<!--beta 
+<addon id="plugin.video.tvil" name="TVIL.ME" version="1.0.0" provider-name="MINT TEAM/zachi40">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.beautifulsoup4" version="4.3.1" />
+		<import addon="script.module.requests" version="2.3.0" />
+		<import addon="script.module.html5lib" version="0.999.0" />
+		<import addon="script.module.urlresolver" />
+	</requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	  <summary lang="en">TVIL.ME.</summary>
+	  <description lang="en">הרחבה מבית מינט לצפיה באתר TVIL.</description>
+	  <platform>all</platform>
+	  <language>en</language>
+	  <disclaimer></disclaimer>
+  </extension>
+</addon>
+-->
+<addon id="plugin.video.hadlafa" name="Hadlafa.net" version="1.0.2" provider-name="zachi40">
+  <requires>
+	 <import addon="xbmc.python" version="2.1.0"/>
+	 <import addon="script.module.beautifulsoup4" version="4.3.1" />
+	 <import addon="script.module.requests" version="2.3.0" />
+	 <import addon="script.module.html5lib" version="0.999.0" />
+	 <import addon="script.module.urlresolver" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Hadlafa.net</summary>
+    <description lang="en">הרחבה מבית היוצר של zachi40 לאתר ההדלפה.	</description>
+    <platform>all</platform>
+	<language>en</language>
+	<disclaimer>כותבי הסקריפט אינם אחראי על התוכן המשודר וכל הזכויות שמורות לאתר הדלפה</disclaimer>
+  </extension>
+</addon>
+<!-- plugin.video.seretnow -->
+<addon id="plugin.video.seretnow" name="SeretNow.ME" version="1.0.0" provider-name="zachi40">
+	<requires>
+		<import addon="xbmc.python" version="2.7.0"/>
+		<import addon="script.module.beautifulsoup4" version="4.3.1" />
+		<import addon="script.module.requests" version="2.3.0" />
+		<import addon="script.module.html5lib" version="0.999.0" />
+		<import addon="script.module.execjs" />
+		<import addon="script.module.urlresolver" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+		<language>en</language>
+		<summary lang="en">SeretNow.ME</summary>
+		<description lang="en">הרחבה מבית היוצר של zachi40 לאתר SeretNow.ME.</description>
+		<platform>all</platform>
+		<disclaimer>כותבי הסקריפט אינם אחראים על התוכן המשודר</disclaimer>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/ScreenShots/screenshot-01.jpg</screenshot>
+			<screenshot>resources/ScreenShots/screenshot-02.jpg</screenshot>
+			<screenshot>resources/ScreenShots/screenshot-03.jpg</screenshot>
+		</assets>
+    </extension>
+</addon>
+<!-- script.module.execjs -->
+<addon id="script.module.execjs" name="execjs" version="1.0.4" provider-name="Copyright (c) 2016 Omoto Kenji.">
+  <requires>
+    <import addon="xbmc.python" version="2.7.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="execjs" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Run JavaScript code from Python</summary>
+    <description>The pros of PyExecJS is that you do not need take care of JavaScript environment. Especially, it works in Windows environment without installing extra libraries.</description>
+     <license>MIT License</license>
+    <platform>all</platform>
+    <website>https://pypi.python.org/pypi/PyExecJS/</website>
+  </extension>
+  <extension point='xbmc.python.module'/>
+</addon>
+<!--script.module.urlresolver-->
+<addon id="script.module.urlresolver" name="URLResolver" version="3.0.26" provider-name="tvaddons.ag, Eldorado">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
+		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+	</extension>
+</addon>
+<!-- service.subtitles -->
+<addon id="service.subtitles.opensubtitles" name="OpenSubtitles.org" provider-name="amet" version="5.0.15">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension library="service.py" point="xbmc.subtitle.module"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">OpenSubtitles</summary>
+    <description lang="en">Search and download subtitles from opensubtitles.org</description>
+    <disclaimer lang="en"/>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=183114</forum>
+    <website/>
+    <email/>
+    <source>https://github.com/amet/service.subtitles.opensubtitles</source>    
+  </extension>
+</addon>
+<addon id="service.subtitles.subscenter" name="Subscenter.org" version="3.3.7" provider-name="CaTz">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+	<import addon="script.common.plugin.cache" version="0.9.1"/>
+  </requires>
+  <extension point="xbmc.subtitle.module" library="service.py"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Subscenter.org</summary>
+    <description lang="en">Search and Download subtitles from subscenter.org. Contributors: rabak, Ori Varon, sagiben</description>
+    <source>https://github.com/XBMCil/service.subtitles.subscenter</source>
+    <language>en</language>
+	<email> </email>
+	<forum> </forum>
+	<website> </website>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+  </extension>
+</addon>
+<addon id="service.subtitles.subtitle" name="Ktuvit.com" version="4.4.2" provider-name="CaTz">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+        <import addon="script.common.plugin.cache" version="0.9.1"/>
+    </requires>
+    <extension point="xbmc.subtitle.module" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Ktuvit.com</summary>
+        <description lang="en">Search and Download subtitles from Ktuvit.com. Contributors: rabak, Ori Varon,
+            sagiben
+        </description>
+        <source>https://github.com/XBMCil/service.subtitles.subtitle</source>
+        <language>en</language>
+        <email> </email>
+        <forum> </forum>
+        <website> </website>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    </extension>
+</addon>
+<addon id="service.subtitles.torec" name="Torec" version="1.0.9" provider-name="slmosl">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.common.plugin.cache" version="0.9.1"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+  </requires>
+  <extension point="xbmc.subtitle.module"
+             library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Kodi/XBMC Torec Subtitles allows for downloading hebrew subtitles from the Israeli site Torec.net</summary>
+    <description lang="en">Search and download various hebrew subtitles from the Israeli subtitles site Torec.net.</description>
+    <source>https://github.com/slmosl/service.subtitles.Torec</source>
+    <email></email>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+  </extension>
+</addon>
+<addon id="service.subtitles.subcenterorg" name="סאבסנטר - SUBCENTER " version="0.71" provider-name="kodil">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+        <import addon="script.common.plugin.cache" version="0.9.1"/>
+    </requires>
+    <extension point="xbmc.subtitle.module" library="subcenter.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">subcenter by kodil</summary>
+        <description lang="en">Search and Download subtitles from subcenter. Contributors: kodil
+        </description>
+        <source>https://github.com/kodil/service.subtitles.subcenterorg</source>
+        <language>en</language>
+        <email> </email>
+        <forum> </forum>
+        <website>www.subscenter.org</website>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    </extension>
+</addon>
+<addon id="service.subtitles.bsplayer" name="BSPlayer" version="0.2.1" provider-name="realgam3">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.subtitle.module" library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Kodi / XBMC BSPlayer Subtitles allows for downloading subtitles from the bsplayer subtitles community.</summary>
+    <description lang="en">Search and download various subtitles from the bsplayer subtitles community.</description>
+    <source>https://github.com/realgam3/service.subtitles.bsplayer</source>
+    <email>realgam3@gmail.com</email>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+  </extension>
+</addon>
+
+</addons>

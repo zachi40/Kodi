@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.execjs" name="execjs" version="1.0.4" provider-name="Copyright (c) 2016 Omoto Kenji.">
+  <requires>
+    <import addon="xbmc.python" version="2.7.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="execjs" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Run JavaScript code from Python</summary>
+    <description>The pros of PyExecJS is that you do not need take care of JavaScript environment. Especially, it works in Windows environment without installing extra libraries.</description>
+    <license></license>
+    <platform>all</platform>
+    <website>https://pypi.python.org/pypi/PyExecJS/</website>
+  </extension>
+</addon>
